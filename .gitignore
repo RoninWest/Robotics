@@ -174,3 +174,4 @@ UpgradeLog*.htm
 FakesAssemblies/
 
 *.chm
+*.userprefs
