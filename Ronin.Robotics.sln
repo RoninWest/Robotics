@@ -3,6 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ronin.Robotics.NancyBrick", "Ronin.Robotics.NancyBrick\Ronin.Robotics.NancyBrick.csproj", "{F5DE9D64-F632-488F-B8E8-53C82284FF50}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1CD6CCE6-11D6-4818-B9AD-157377DA5434}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +18,8 @@ Global
 		{F5DE9D64-F632-488F-B8E8-53C82284FF50}.Debug|x86.Build.0 = Debug|x86
 		{F5DE9D64-F632-488F-B8E8-53C82284FF50}.Release|x86.ActiveCfg = Release|x86
 		{F5DE9D64-F632-488F-B8E8-53C82284FF50}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Ronin.Robotics.NancyBrick\Ronin.Robotics.NancyBrick.csproj
