@@ -10,14 +10,15 @@ namespace Ronin.Robotics.NancyBrick
 	{
 		public MotorsModule ()
 		{
-			Get ["/"] = a => {
-				LcdConsole.WriteLine("Hello C0nsole from NancyFX!");
+			Get ["/{volume?80}"] = a => {
+				//LcdConsole.WriteLine("Hello C0nsole from NancyFX!");
 
-				var s = new Speaker(50);
-				s.Beep(200);
-				s.Buzz(200);
+				int vol = (int)a.volume;
+				var s = new Speaker(vol);
+				s.Beep(500);
+				//s.Buzz(500);
 
-				return "Hell0w REST client from NancyFX!";
+				return "Hell0w REST client from NancyFX!\r\nVolume @" + vol;
 			};
 		}
 	}

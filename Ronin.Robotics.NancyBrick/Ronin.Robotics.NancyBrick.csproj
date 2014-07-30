@@ -39,6 +39,7 @@
     <Reference Include="MonoBrickFirmware">
       <HintPath>..\Libs\MonoBrickFirmware\MonoBrickFirmware.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
