@@ -47,6 +47,8 @@
     <Compile Include="Models\Motor.cs" />
     <Compile Include="Models\MotorDirection.cs" />
     <Compile Include="Modules\MotorsModule.cs" />
+    <Compile Include="Logger.cs" />
+    <Compile Include="LcdConsoleTraceListenter.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
